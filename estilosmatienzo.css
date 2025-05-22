@@ -1,0 +1,49 @@
+.logo{
+    margin-left: 270px;
+    
+    
+}
+header{
+    background-color: rgba(0, 0, 0,.7);
+
+    display: grid; 
+    grid-template-columns: 30% 50% 20%
+}
+h1{ 
+   color: white;        
+}
+body{
+    background: url("Home.jpg");
+    margin: 0px;
+}  
+.carrusel{
+    font-family: 'Montserrat', sans-serif;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 20px;
+  padding: 40px 60px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+  color: white;
+  max-width: 600px;
+  text-align: center;
+  margin: auto;
+} 
+.inicio{    
+    display: flex;
+  justify-content: flex-end;
+  padding: 0px;
+}
+.ctarjetas{
+    display: grid; 
+    grid-template-columns: auto auto auto;
+    text-align: center;
+
+}
+.fecha{
+    background-color: black;
+    color: white;
+}
+.tarjeta{
+    margin: 20px;
+}
