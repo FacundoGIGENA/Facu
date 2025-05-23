@@ -1,5 +1,7 @@
 .logo{
     margin-left: 270px;
+    border:6px solid grey ;   
+    border-radius: 50%;
     
     
 }
@@ -7,13 +9,54 @@ header{
     background-color: rgba(0, 0, 0,.7);
 
     display: grid; 
-    grid-template-columns: 30% 50% 20%
+    grid-template-columns: 30% 50% 20%;
+ 
+}
+.boton{
+    background: linear-gradient(135deg, #1e3c72, #2a5298);  /* degradado azul */
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 5% ;
+  font-size: 15px;
+  font-weight: 300;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.25);
+  transition: all 0.3s ease;
+  font-family: 'Archivo Black', sans-serif;
+  letter-spacing: 0.8px;
+  align-items: center;
+}
+.icono-candado{
+        height: 20px;
+    width: 20px;
+
 }
 h1{ 
-   color: white;        
+   color: white;
+   font-family: 'Archivo Black', sans-serif;  font-weight: 900;
+   font-size: 2.5em;
+   text-align: center;
+         
+}
+h2{
+    font-family: 'Archivo Black ', sans-serif; font-weight: 900px;
+    font-size: 2.0em;
+    color: rgb(45, 45, 124);
+    margin-left: 40px;
+    padding-top: 30px;
+}
+h3{
+    font-size: 1.8em;
+}
+h4{
+    color: rgb(45, 45, 124)
 }
 body{
-    background: url("Home.jpg");
+    background: url("./Imagenes/Home.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
+ 
     margin: 0px;
 }  
 .carrusel{
@@ -22,7 +65,7 @@ body{
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(10px);
   border-radius: 20px;
-  padding: 40px 60px;
+  
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
   color: white;
   max-width: 600px;
@@ -34,16 +77,98 @@ body{
   justify-content: flex-end;
   padding: 0px;
 }
+.Agenda{
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 0;
+    padding-bottom: 20px;
+}
 .ctarjetas{
     display: grid; 
     grid-template-columns: auto auto auto;
     text-align: center;
-
+    margin: 0 15px;
+    
+    
 }
 .fecha{
     background-color: black;
     color: white;
+    border-radius: 3px;
+     font-family: 'Montserrat', sans-serif;
+    
+    
+     
+
+
 }
+.fecha h3{
+    margin:0px;
+    padding:0px;
+}
+.fecha p{
+    margin:0px;
+    padding:0px;
+}
+
 .tarjeta{
-    margin: 20px;
+    margin: 50px;
+    margin-bottom: 0;
+    
+    
+}
+.Detalle{
+     font-family: 'Montserrat', sans-serif;
+     background-color: white;
+     border-radius: 3px;
+     margin-top: 0;
+     border: 1px rgb(114, 94, 94) solid;
+     
+
+}
+footer{
+    background-color: rgb(113, 94, 94);
+    margin-bottom: 0px;
+    
+}
+.contacto a{
+    display: inline-flex;
+  align-items: center;
+    margin-right: 0px;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    color: black
+}
+.contacto a:hover{
+    color:white;
+}
+    
+.logowpp{
+    height: 30px;
+    width: 30px;
+}
+.Logoig{
+     height: 30px;
+    width: 30px;
+    margin-bottom: 1px;
+}
+.instagram a{
+    display: inline-flex;
+  align-items: center;
+    margin-bottom: 0;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    color: black
+}
+.instagram a:hover{
+    color:white;
+     }
+.direccion a{
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    color: black;
+    margin-bottom: 0px;
+    margin-left: 75%;
+}
+.direccion a:hover{
+    color: white;
 }
