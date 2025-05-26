@@ -1,0 +1,113 @@
+.logo{
+    margin-left: 265px;
+    border:6px solid grey ;   
+    border-radius: 50%;
+    }
+    header{
+    background-color: rgba(0, 0, 0, 0.7);
+
+    display: grid; 
+    grid-template-columns: 30% 50% 20%;
+ 
+}
+h1{
+    font-family: 'Archivo Black', sans-serif;  font-weight: 900;
+   font-size: 2.5em;
+   text-align: center;
+   color: white 
+}
+.icono-candado{
+        height: 20px;
+    width: 20px;
+
+}
+.inicio{    
+    display: flex;
+  justify-content: flex-end;
+  padding: 0px;
+}
+body{
+    
+    background-color: rgb(73, 161, 209);    
+    height: 100%;
+    
+   
+   
+}
+.login{
+     background: rgba(0, 0, 0, 0.8);
+     display:flex;
+    flex-direction: column; 
+    align-items: center;
+    padding: 40px;
+    margin-left: 40%;
+    margin-right: 40%; 
+  border-radius: 12px;
+  height: 100%;
+}
+.recontra {
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    color: black;
+}
+
+input{
+   margin-top: 10%;
+    margin-bottom   : 10%;
+}
+.logowpp{
+    height: 30px;
+    width: 30px;
+}
+footer{
+    background-color: rgb(113, 94, 94);
+    margin-bottom: 0px;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    margin-left: 0  ;
+}   
+.contacto a{
+    display: inline-flex;
+  align-items: center;
+    margin-right: 0px;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    color: black
+}
+.contacto a:hover{
+    color:white;
+    font-weight: bolder;
+}
+.logowpp{
+    height: 30px;
+    width: 30px;
+}
+.Logoig{
+     height: 30px;
+    width: 30px;
+    margin-bottom: 1px;
+}
+.instagram a{
+    display: inline-flex;
+  align-items: center;
+    margin-bottom: 0;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    color: black
+}
+.instagram a:hover{
+    color:white;
+    font-weight: bolder;
+     }
+.direccion a{
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    color: black;
+    margin-bottom: 0px;
+    margin-left: 75%;
+}
+.direccion a:hover{
+    color: white;
+    font-weight: bolder;
+}

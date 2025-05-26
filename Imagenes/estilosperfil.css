@@ -1,0 +1,98 @@
+header{
+    background-color: rgba(0, 0, 0, 0.7);
+
+    display: grid; 
+    grid-template-columns: 30% 50% 20%;
+ 
+}
+body{
+    background: url(./Imagenes/perfil.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+h1{
+    font-family: 'Montserrat', sans-serif;
+}
+h2{
+    max-width: 600px;
+  text-align: center;
+  background-color: rgb(61, 61, 171);
+   margin: auto;
+   padding-top: 20px;
+    width: 80%;
+    color: white;
+}
+.userdata{
+   background: rgba(255, 255, 255, 0.85);
+   font-family: 'Montserrat', sans-serif;
+   margin-top:10%;
+   margin-bottom: 10%;
+   margin-left: 20%;
+   margin-right: 20%;
+   border-radius: 1%;
+   
+}
+#btncuotas{
+    margin-left: 2%;
+    font-family: 'Montserrat', sans-serif;
+}
+h1{
+    color: white;   
+}
+.logo{
+    margin-left: 265px;
+    border:6px solid grey;   
+    border-radius: 50%;
+    }
+    footer{
+    background-color: rgb(113, 94, 94);
+    margin-bottom: 0px;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    margin-left: 0  ;
+}   
+.contacto a{
+    display: inline-flex;
+  align-items: center;
+    margin-right: 0px;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    color: black
+}
+.contacto a:hover{
+    color:white;
+    font-weight: bolder;
+}
+.logowpp{
+    height: 30px;
+    width: 30px;
+}
+.Logoig{
+     height: 30px;
+    width: 30px;
+    margin-bottom: 1px;
+}
+.instagram a{
+    display: inline-flex;
+  align-items: center;
+    margin-bottom: 0;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    color: black
+}
+.instagram a:hover{
+    color:white;
+    font-weight: bolder;
+     }
+.direccion a{
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    color: black;
+    margin-bottom: 0px;
+    margin-left: 79%;
+}
+.direccion a:hover{
+    color: white;
+    font-weight: bolder;
+}
