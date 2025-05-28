@@ -6,14 +6,17 @@
     <title>
         Perfil-Club Matienzo
     </title>
-    <link rel="stylesheet" href="estilosmatienzo.css">
+    <link rel="stylesheet" href="estilosperfil.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
+    <script src="perfil.js"></script>
 </head>
 
-<body>
+<body onload="cargardatos()">
     <header>
         <div class="logocontainer">
-            <a href="index.html" class="logo">
-                <img src="Matienzologo.png" alt="Logo club matienzo">
+            <a href="index.html">
+                <img src="./Imagenes/Matienzologo.png" alt="Logo club matienzo" class="logo"º>
             </a>
         </div>
         <div class="titlecontainer">
@@ -23,21 +26,41 @@
         </div>
     </header>
 
-
-    <h2>Nombre de usuario</h2>
-    <h3> Detalles del usuario </h3>
-    <ul>
-        <li>Documento </li>
-        <li>Contacto telefonico </li>
-        <li>Categoria </li>
-        <li> Entrenador</li>
+<div class="userdata">
+    <h2>Nombre de usuario<span id="nombreUsuario"></span></h2>
+    <div class="userdetails">
+  <h3> Detalles del usuario </h3>
+    <ul id="listDetalles">
+        <li>Documento: <span id="documento"></span></li>
+        <li>Contacto telefonico: <span id="contactoTelefonico"></span> </li>
+        <li>Categoria:<span id="categoria"></span> </li>
+        <li> Entrenador:<span id="entrenador"></span> </li>
 
     </ul>
-    <button>CUOTAS</button>
-    <ul>
+    <button id="btncuotas" onclick="mostrar()">CUOTAS</button>
+    <ul id="miLista" class="oculto">
         <li>Enero-2024 Adeuda 100000$</li>
     </ul>
-
+    </div>
+  
+</div>
+    
+<footer>
+        <div class="contacto">
+                <a href="https://l.instagram.com/?u=https%3A%2F%2Fwa.me%2F3512273595&e=AT16orPZvizPsP75xY2XhhG2s5u3az5obiXGOY9F08iM971iNCgVEpJZAp9nRSAQh4lrc-fpKFogdkitGfvuSPJfuv6RVYEC"><img src="./Imagenes/whatsapp.svg.webp" alt="Logowhatsapp" class="logowpp">Contactanos    </a> 
+        </div>
+        <div class="instagram">
+            <a href="https://www.instagram.com/club.matienzo/?hl=es"><img src="./Imagenes/Instagram_icon.png" alt="LogoInstagram" class="Logoig"> Seguinos en instagram     </a>   
+        </div>
+        
+       
+        <div class="direccion">
+            <a href="https://www.google.com.ar/maps/place/Domingo+Z%C3%ADpoli+1943,+X5008JSU+C%C3%B3rdoba/@-31.3869919,-64.2149425,17z/data=!3m1!4b1!4m6!3m5!1s0x943298ef51a79693:0x329aa67e5fefea65!8m2!3d-31.3869965!4d-64.2123676!16s%2Fg%2F11hk0qy65r?hl=es&entry=ttu&g_ep=EgoyMDI1MDUxNS4xIKXMDSoJLDEwMjExNDU1SAFQAw%3D%3D">📍     Domingo Zipoli 1943, Córdoba, Argentina </a>
+            
+        </div>
+        
+    </footer>
+   
     <body>
 
 </html>

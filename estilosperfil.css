@@ -1,78 +1,62 @@
-.logo{
-    margin-left: 60%;
-    border:6px solid grey ;   
-    border-radius: 50%;
-    }
-    header{
+header{
     background-color: rgba(0, 0, 0, 0.7);
 
     display: grid; 
     grid-template-columns: 30% 50% 20%;
     align-items: center;
+    margin:0;
  
 }
-h1{
-   color: white;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: bolder;
-}
-.icono-candado{
-        height: 20px;
-    width: 20px;
-
-}
-.inicio{    
-    display: flex;
-  justify-content: flex-end;
-  padding: 0px;
-}
 body{
-    
-    background-color: rgb(73, 161, 209);    
-    height: 100%;
-    
-   
-   
+    background: url(./Imagenes/perfil.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin:0;
 }
-.login{
-     background: rgba(0, 0, 0, 0.8);
-     display:flex;
-    flex-direction: column; 
-    align-items: center;
-    padding: 40px;
-    margin-top: 5%;
-    margin-bottom: 5%;
-    margin-left: 40%;
-    margin-right: 40%; 
-  border-radius: 12px;
-  height: 100%;
-}
-.recontra {
+h1{
     font-family: 'Montserrat', sans-serif;
-    text-decoration: none;
-    color: black;
 }
-
-input{
-   margin-top: 10%;
-    margin-bottom   : 10%;
+h2{
+    max-width: 600px;
+  text-align: center;
+  background-color: rgb(61, 61, 171);
+   margin: auto;
+   padding-top: 20px;
+    width: 80%;
+    color: white;
 }
-.inicio{
-    display: flex;
-    justify-content: center;
-    margin-top: 10px;
+.userdata{
+   background: rgba(255, 255, 255, 0.85);
+   font-family: 'Montserrat', sans-serif;
+   margin-top:10%;
+   margin-bottom: 10%;
+   margin-left: 20%;
+   margin-right: 20%;
+   border-radius: 1%;
+   
 }
-.logowpp{
-    height: 30px;
-    width: 30px;
+#btncuotas{
+    margin-left: 2%;
+    font-family: 'Montserrat', sans-serif;
 }
-footer{
+.oculto {
+  display: none;
+}
+h1{
+    color: white;   
+}
+.logo{
+    margin-left: 60%;
+    border:6px solid grey;   
+    border-radius: 50%;
+    }
+    footer{
     background-color: rgb(113, 94, 94);
     margin-bottom: 0px;
     bottom: 0;
     position: fixed;
     width: 100%;
-    margin-left: 0% ;
+    margin-left: 0  ;
 }   
 .contacto a{
     display: inline-flex;
@@ -117,4 +101,7 @@ footer{
 .direccion a:hover{
     color: white;
     font-weight: bolder;
+}
+footer{
+    margin-left: 0%;
 }

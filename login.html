@@ -4,9 +4,12 @@
     <meta charset="utf-8">
     <title>
         Login-Club Matienzo   
-    </href>
+        
     </title>
     <link rel="stylesheet" href=estiloslogin.css>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
+</head> 
 <body>
  <header>
     <a href="index.html">
@@ -23,18 +26,32 @@
     </header>   
     
     <div class="login">
-        <input type="text" placeholder="Documento">
-        <input type="password" placeholder="Contraseña">
+        <form id="loginForm">
+        <input type="text" id="documento" placeholder="Documento" required>
+        <input type="text" id="nombre" placeholder="Nombre Apellido"required>
+        <input type="password" id="contraseña" placeholder="Contraseña"required>
        <div class="inicio">
-            <a href="paginamatienzoperfil.html" class="loginboton"> 
                 <button class="boton">
                     <img src="./imagenes/candado.png" class="icono-candado" alt="candado">
-                    Iniciar sesion </button></a>
+                    Iniciar sesion </button>
         </div>
+        </form>
+        <a href="https://api.whatsapp.com/send/?phone=3512273595&text&type=phone_number&app_absent=0" class="recontra"> Recuperar Contraseña</a>
     </div>
     <footer>
-        <a href "contacto wpp"> 
-        <img src="./Imagenes/whatsapp.svg.webp" alt="Whatsapp" class="logowpp"> CONTACTANOS
-        </a>
+        <div class="contacto">
+                <a href="https://l.instagram.com/?u=https%3A%2F%2Fwa.me%2F3512273595&e=AT16orPZvizPsP75xY2XhhG2s5u3az5obiXGOY9F08iM971iNCgVEpJZAp9nRSAQh4lrc-fpKFogdkitGfvuSPJfuv6RVYEC"><img src="./Imagenes/whatsapp.svg.webp" alt="Logowhatsapp" class="logowpp">Contactanos    </a> 
+        </div>
+        <div class="instagram">
+            <a href="https://www.instagram.com/club.matienzo/?hl=es"><img src="./Imagenes/Instagram_icon.png" alt="LogoInstagram" class="Logoig"> Seguinos en instagram     </a>   
+        </div>
+        
+       
+        <div class="direccion">
+            <a href="https://www.google.com.ar/maps/place/Domingo+Z%C3%ADpoli+1943,+X5008JSU+C%C3%B3rdoba/@-31.3869919,-64.2149425,17z/data=!3m1!4b1!4m6!3m5!1s0x943298ef51a79693:0x329aa67e5fefea65!8m2!3d-31.3869965!4d-64.2123676!16s%2Fg%2F11hk0qy65r?hl=es&entry=ttu&g_ep=EgoyMDI1MDUxNS4xIKXMDSoJLDEwMjExNDU1SAFQAw%3D%3D">📍 Domingo Zipoli 1943, Córdoba, Argentina </a>
+            
+        </div>
+        
     </footer>
+    <script src="login.js"></script>
 </body>
