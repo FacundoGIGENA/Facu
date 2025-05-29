@@ -1,0 +1,248 @@
+.logo{
+    margin-left: 60%;
+    border:6px solid grey ;   
+    border-radius: 50%;
+    
+    
+}
+header{
+    background-color: rgba(0, 0, 0,.7);
+
+    display: grid; 
+    grid-template-columns: 30% 50% 20%;
+    align-items: center;
+
+}
+.boton{
+    background: linear-gradient(135deg, #1e3c72, #2a5298);  /* degradado azul */
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 5% ;
+  font-size: 15px;
+  font-weight: 300;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.25);
+  transition: all 0.3s ease;
+  font-family: 'Archivo Black', sans-serif;
+  letter-spacing: 0.8px;
+  align-items: center;
+  margin-top:0;
+  margin-right:0;
+  
+}
+.icono-candado{
+        height: 20px;font-family: 'Archivo Black', sans-serif;  font-weight: 900;
+   font-size: 2.5em;
+   text-align: center;
+    width: 20px;
+
+}
+h1{ 
+   color: white;
+   
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+   
+   
+         
+}
+h2{
+    font-family: 'Archivo Black ', sans-serif; font-weight: 900px;
+    font-size: 2.0em;
+    color: rgb(45, 45, 124);
+    margin-left: 217px;
+    padding-top: 30px;
+}
+h3{
+    font-size: 1.8em;
+}
+h4{
+    color: rgb(45, 45, 124)
+}
+body{
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./Imagenes/Home.jpg");
+    
+    background-repeat: no-repeat;
+    background-size: auto   ;
+ 
+    margin: 0px;
+}  
+.carrusel{
+    position: relative;
+  max-width: 700px;
+  margin: auto;
+  overflow: hidden;
+  border-radius: 20px;
+  backdrop-filter: blur(8px);
+  background: rgba(255, 255, 255, 0.4);
+} 
+.carrusel-contenedor {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+  min-width: 100%;
+  box-sizing: border-box;
+  text-align: center;
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.slide img {
+  width: 100%;
+  max-height: 300px;
+  object-fit: cover;
+  margin-top: 5%;
+}
+
+.slide p {
+  font-family: 'Montserrat', sans-serif;
+  padding: 10px;
+  background: rgba(0,0,0,0.4);
+  color: white;
+}
+
+.slide.activo {
+  display: flex;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 45%;
+  width: auto;
+  padding: 8px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+  user-select: none;
+  background: rgba(0,0,0,0.3);
+  border: none;
+  border-radius: 50%;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.7);
+}
+
+.prev {
+  left: 10px;
+}
+
+.next {
+  right: 10px;
+}
+.inicio{    
+    display: flex;
+  justify-content: flex-end;
+  padding: 0px;
+}
+.Agenda{
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 0;
+    padding-bottom: 20px;
+}
+.ctarjetas{
+    display: grid; 
+    grid-template-columns: auto auto auto;
+    text-align: center;
+    margin: 0 15px;
+    padding-right: 150px;
+    padding-left: 150px;
+    
+    
+}
+.fecha{
+    background-color: black;
+    color: white;
+    border-radius: 3px;
+     font-family: 'Montserrat', sans-serif;
+    
+    
+     
+
+
+}
+.fecha h3{
+    margin:0px;
+    padding:0px;
+}
+.fecha p{
+    margin:0px;
+    padding:0px;
+}
+
+.tarjeta{
+    margin: 50px;
+    margin-bottom: 0;
+    
+    
+}
+.Detalle{
+     font-family: 'Montserrat', sans-serif;
+     background-color: white;
+     border-radius: 3px;
+     margin-top: 0;
+     border: 1px rgb(114, 94, 94) solid;
+     
+
+}
+footer{
+    background-color: rgb(113, 94, 94);
+    margin-bottom: 0px;
+    
+}
+.contacto a{
+    display: inline-flex;
+  align-items: center;
+    margin-right: 0px;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    color: black;
+     margin-bottom: 0px;
+    
+}
+.contacto a:hover{
+    color:white;
+    font-weight: bolder;
+}
+    
+.logowpp{
+    height: 30px;
+    width: 30px;
+}
+.Logoig{
+     height: 30px;
+    width: 30px;
+    margin-bottom: 1px;
+}
+.instagram a{
+    display: inline-flex;
+  align-items: center;
+    margin-bottom: 0;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    color: black;
+     margin-bottom: 0px;
+}
+.instagram a:hover{
+    color:white;
+    font-weight: bolder;
+     }
+.direccion a{
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    color: black;
+    margin-bottom: 0px;
+    margin-left: 73%;
+     margin-bottom: 0px;
+}
+.direccion a:hover{
+    color: white;
+    font-weight: bolder;
+}
