@@ -57,7 +57,12 @@ h1{
     position: fixed;
     width: 100%;
     margin-left: 0  ;
-}   
+}
+.btncuotas{
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 10%;
+
+}
 .contacto a{
     display: inline-flex;
   align-items: center;

@@ -6,6 +6,22 @@ const usuariosd =[
         pass:"juan008",
         categoria:"U21",
         entrenador:"Alvaro Imaz",
+        cuotasAdeudadas: [
+            "Enero-2024 - Adeuda $100000",
+            "Febrero-2024 - Adeuda $100000"
+        ]
+    },
+    {
+        nombreUsuario: "mariafernandez",
+        documento: "444444",
+        contactoTelefonico: "3517654321",
+        pass: "maria123",
+        categoria: "U17",
+        entrenador: "Lucía Gómez",
+        cuotasAdeudadas: [
+            "Octubre-2024 - Adeuda $100000",
+            "Febrero-2024 - Adeuda $100000"
+        ]
     }
  ];
 

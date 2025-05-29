@@ -30,7 +30,7 @@ body{
     
     background-color: rgb(73, 161, 209);    
     height: 100%;
-    
+    margin:0%;
    
    
 }
@@ -47,6 +47,7 @@ body{
   border-radius: 12px;
   height: 100%;
 }
+
 .recontra {
     font-family: 'Montserrat', sans-serif;
     text-decoration: none;

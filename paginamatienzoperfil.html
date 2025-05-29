@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="estilosperfil.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
-    <script src="perfil.js"></script>
+    <script src="perfil.js" defer></script>
 </head>
 
 <body onload="cargardatos()">
@@ -27,20 +27,20 @@
     </header>
 
 <div class="userdata">
-    <h2>Nombre de usuario<span id="nombreUsuario"></span></h2>
+    <h2>Nombre de usuario: <span id="nombreUsuario"></span></h2>
     <div class="userdetails">
   <h3> Detalles del usuario </h3>
     <ul id="listDetalles">
         <li>Documento: <span id="documento"></span></li>
         <li>Contacto telefonico: <span id="contactoTelefonico"></span> </li>
         <li>Categoria:<span id="categoria"></span> </li>
+        <li> Division:<span id="division"></span></li>
         <li> Entrenador:<span id="entrenador"></span> </li>
+        
 
     </ul>
     <button id="btncuotas" onclick="mostrar()">CUOTAS</button>
-    <ul id="miLista" class="oculto">
-        <li>Enero-2024 Adeuda 100000$</li>
-    </ul>
+    <ul id="cuotasAdeudadas"></ul>
     </div>
   
 </div>
