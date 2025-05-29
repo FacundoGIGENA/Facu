@@ -2,6 +2,7 @@
 <html lang="es">
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1">
     <title>
         Login-Club Matienzo   
         
@@ -9,6 +10,7 @@
     <link rel="stylesheet" href=estiloslogin.css>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
+</head> 
 <body>
  <header>
     <a href="index.html">
@@ -25,16 +27,16 @@
     </header>   
     
     <div class="login">
-        <input type="text" placeholder="Documento">
-        <input type="password" placeholder="Contraseña">
+        <form id="loginForm">
+        <input type="text" id="documento" placeholder="Documento" required>
+        <input type="text" id="nombre" placeholder="Nombre Apellido"required>
+        <input type="password" id="contraseña" placeholder="Contraseña"required>
        <div class="inicio">
-            <a href="paginamatienzoperfil.html" class="loginboton"> 
                 <button class="boton">
                     <img src="./imagenes/candado.png" class="icono-candado" alt="candado">
-                    Iniciar sesion </button></a>
-            
-
+                    Iniciar sesion </button>
         </div>
+        </form>
         <a href="https://api.whatsapp.com/send/?phone=3512273595&text&type=phone_number&app_absent=0" class="recontra"> Recuperar Contraseña</a>
     </div>
     <footer>
@@ -52,4 +54,5 @@
         </div>
         
     </footer>
+    <script src="login.js"></script>
 </body>
