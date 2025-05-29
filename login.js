@@ -5,6 +5,7 @@ const usuariosd =[
         contactoTelefonico:"3511234567",
         pass:"juan008",
         categoria:"U21",
+        division:"B1",
         entrenador:"Alvaro Imaz",
         cuotasAdeudadas: [
             "Enero-2024 - Adeuda $100000",
@@ -17,6 +18,7 @@ const usuariosd =[
         contactoTelefonico: "3517654321",
         pass: "maria123",
         categoria: "U17",
+        division:"B1",
         entrenador: "Lucía Gómez",
         cuotasAdeudadas: [
             "Octubre-2024 - Adeuda $100000",

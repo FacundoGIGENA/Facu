@@ -62,6 +62,13 @@ function mostrar() {
     document.getElementById("entrenador").innerText=usuario.entrenador
     document.getElementById("division").innerText=usuario.division
 }
+function abrirFixture(){
+  document.getElementById("modal").showModal();
+}
+function cerrarFixture(){
+  document.getElementById("modal").close();
+
+}
 
 
 

@@ -58,6 +58,14 @@ h1{
     width: 100%;
     margin-left: 0  ;
 }
+#fixture:hover{
+cursor:pointer;
+color: rgb(61, 61, 171);
+}
+#foto{
+    width: 500px;
+    height: 800px;
+}
 .btncuotas{
     font-family: 'Montserrat', sans-serif;
     border-radius: 10%;
